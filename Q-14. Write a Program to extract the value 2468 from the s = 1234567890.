@@ -1,0 +1,4 @@
+#Q-14. Write a Program to extract the value 2468 from the s = 1234567890. 
+s = "1234567890"
+print(s[int(s.index("2")):int(s.index("8")+1):2])
+
