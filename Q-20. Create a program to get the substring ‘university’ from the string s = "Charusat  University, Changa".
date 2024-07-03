@@ -1,0 +1,5 @@
+'''Q-20. Create a program to get the substring ‘university’ from the string s = "Charusat 
+University, Changa". '''
+
+s = "Charusat University,Changa"
+print(s[s.index(" ")+1:s.index(",")])
