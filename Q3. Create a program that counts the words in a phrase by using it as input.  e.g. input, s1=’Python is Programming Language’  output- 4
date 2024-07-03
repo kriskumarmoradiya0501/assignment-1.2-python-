@@ -1,0 +1,2 @@
+s1 = "Python is Programing Language"
+print((s1.count(" ")+1))
