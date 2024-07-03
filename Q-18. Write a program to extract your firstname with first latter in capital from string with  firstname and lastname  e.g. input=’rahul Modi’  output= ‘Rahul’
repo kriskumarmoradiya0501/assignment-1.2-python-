@@ -1,0 +1,8 @@
+''' Q-18. Write a program to extract your firstname with first latter in capital from string with 
+firstname and lastname 
+e.g. input=’rahul Modi’ 
+output= ‘Rahul’   '''
+
+s= "rahul modi"
+s=s[:s.index(" ")]
+print(s.capitalize())
