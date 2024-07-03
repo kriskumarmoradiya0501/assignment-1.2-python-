@@ -1,0 +1,4 @@
+# Q-16. Write a program to ask user to enter their email id and check whether @ is available or 
+#not. 
+s=input("Enter Email ID = ")
+print("@" in s)
