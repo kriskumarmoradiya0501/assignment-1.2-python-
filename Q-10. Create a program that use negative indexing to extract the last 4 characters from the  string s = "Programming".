@@ -1,0 +1,6 @@
+''' Q-10. Create a program that use negative indexing to extract the last 4 characters from the 
+string s = "Programming".  '''
+
+
+s = "Programming"
+print(s[-4:])
