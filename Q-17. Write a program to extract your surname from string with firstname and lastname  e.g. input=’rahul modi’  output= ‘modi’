@@ -1,0 +1,6 @@
+#Q-17. Write a program to extract your surname from string with firstname and lastname 
+#e.g. input=’rahul modi’ 
+#output= ‘modi’  
+
+s = 'rahul modi'
+print(s[s.index(" ")+1:])
