@@ -1,0 +1,11 @@
+''' Q-22. Write a python program to ask user to enter their email id, extract the username, email 
+domain service provider and domain name. 
+e.g. gmail=’abc@gmail.com’ 
+output: username=abc 
+service provider= gmail 
+domain name: com '''
+
+s = "abc@gmail.com"
+print("username : ",s[:int(s.index("@"))])
+print("service Provider : ",s[int(s.index("@")+1):int(s.index("."))])
+print("domain name : ",s[int(s.index(".")+1):])
