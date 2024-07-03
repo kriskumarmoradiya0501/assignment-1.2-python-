@@ -1,0 +1,3 @@
+s1 = "Python java c++ c#"
+search_key="c++"
+print(search_key in s1)
