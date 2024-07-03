@@ -1,0 +1,3 @@
+s1 = "  Python Programming language  "
+print(s1.strip())
+
