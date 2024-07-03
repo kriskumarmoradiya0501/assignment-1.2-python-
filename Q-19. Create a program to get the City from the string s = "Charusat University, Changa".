@@ -1,0 +1,4 @@
+#Q-19. Create a program to get the City from the string s = "Charusat University, Changa". 
+
+s = "Charusat University,Changa"
+print(s[s.index(",")+1:])
