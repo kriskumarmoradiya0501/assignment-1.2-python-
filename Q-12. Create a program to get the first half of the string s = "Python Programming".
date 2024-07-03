@@ -1,0 +1,4 @@
+s="Python Programming"
+p=int(len(s))
+p=p/2
+print(s[ : int(p)])
