@@ -1,0 +1,2 @@
+s="Data Science"
+print(s.replace("Data ",""))
