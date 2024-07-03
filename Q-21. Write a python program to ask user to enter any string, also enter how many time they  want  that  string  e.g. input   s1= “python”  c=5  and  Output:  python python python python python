@@ -1,0 +1,13 @@
+'''
+Q-21. Write a python program to ask user to enter any string, also enter how many time they 
+want 
+that 
+string 
+e.g. input   s1= “python”  c=5 
+and 
+Output:  python python python python python
+'''
+
+s = input()
+n = int(input())
+print(s*n)
