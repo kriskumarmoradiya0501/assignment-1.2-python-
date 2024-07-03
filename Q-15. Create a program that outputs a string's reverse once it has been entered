@@ -1,0 +1,3 @@
+#Q-15. Create a program that outputs a string's reverse once it has been entered 
+s= "sdkhjhfv"
+print(s[::-1])
